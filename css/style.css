@@ -1,0 +1,78 @@
+#movies img, #movie img {
+    width: 100%;
+}
+
+@media(min-width: 960px)  {
+
+    #movies .col-md-3 .well {
+        height: 390px;
+    }
+
+    #movies .col-md-3 img {
+        height: 240px;
+    }
+
+}
+
+body {
+    background: url(../images/movieinfo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: lightgrey;
+    width: 1000px;
+    margin-top: 50px;
+    color: midnightblue;
+}
+
+.col-md-3{
+    background: slategray;
+    opacity: 0.9;
+    color: white;
+}
+
+#post {
+    margin-top: 25px;
+    margin-left: 325px;
+}
+
+#fixed {
+    margin-left: 150px;
+    background: lightgrey;
+    color: midnightblue;
+    margin-top: 25px;
+}
+
+#searchForm {
+    width: 1000px;
+}
+
+#fxd3 {
+    margin-top: 25px;
+}
+
+h3, p {
+    color: midnightblue;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 80px;
+}
+
+h3, h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
+
+p {
+    font-family: Handlee, cursize;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
