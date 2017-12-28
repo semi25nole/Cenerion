@@ -8,6 +8,6 @@ I hope that enjoy your time using this app.
 
 The background image for this website is located here https://www.pexels.com/photo/road-fog-foggy-mist-5230/
 
-For more information on the IMDB api; please visit http://www.omdbapi.com/
+For more information on the OMDB api; please visit http://www.omdbapi.com/
 
 
