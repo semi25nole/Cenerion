@@ -9,17 +9,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-let port = process.env.port || 3000;
+let PORT = process.env.PORT || 3000;
 
-app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "index.html")); //base page
-});
+require("routes/apiroutes.js")(app);
 
-app.get("/movie", function(req, res) {
-    res.sendFile(path.join(__dirname, "main.html"));
-});
-
-app.listen(port, function() {
-    console.log("App is listening on Port " + port);
+app.listen(PORT, function() {
+    console.log("App is listening on Port " + PORT);
 });
 
