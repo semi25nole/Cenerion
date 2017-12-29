@@ -1,0 +1,25 @@
+{
+  "name": "cinerion",
+  "version": "1.0.0",
+  "description": "movieapi",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "body-parser": "^1.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semi25nole/Cinerion.git"
+  },
+  "author": "Kyle Ruschel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semi25nole/Cinerion/issues"
+  },
+  "homepage": "https://github.com/semi25nole/Cinerion#readme"
+}
