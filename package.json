@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/semi25nole/Cenerion/issues"
   },
-  "homepage": "https://github.com/semi25nole/Cenerion#readme"
+  "homepage": "https://github.com/semi25nole/Cenerion#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
